@@ -21,7 +21,8 @@ features = ["dbus"]
 git = "https://github.com/pop-os/cosmic-bg"
 
 [workspace.dependencies.cosmic-comp-config]
-git = "https://github.com/pop-os/cosmic-comp"
+git = "https://github.com/lazytanuki/cosmic-comp"
+branch = "kb_repeat_config"
 
 [workspace.dependencies.cosmic-panel-config]
 git = "https://github.com/pop-os/cosmic-panel"
